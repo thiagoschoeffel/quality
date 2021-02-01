@@ -1,0 +1,16 @@
+$enable-gradients: true !default;
+$enable-shadows: true !default;
+$enable-rounded: false !default;
+
+$input-btn-focus-width: 0 !default;
+$input-btn-focus-box-shadow: none !default;
+
+$font-family-sans-serif: 'Nunito Sans', sans-serif !default;
+
+$custom-file-text: (
+	en: "Browse",
+	pt-br: "Procurar"
+) !default;
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700,900&display=swap');
+@import "../../node_modules/bootstrap/scss/bootstrap";

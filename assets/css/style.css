@@ -1,0 +1,252 @@
+body {
+	background-color: #fcfcfc;
+}
+
+small,
+.small {
+	font-size: .75rem !important;
+}
+
+.alert {
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
+	z-index: 9998;
+	width: 300px;
+	font-size: .75rem !important;
+}
+
+.alert p {
+	margin-bottom: .5rem;
+}
+
+.alert p:last-of-type {
+	margin-bottom: 0;
+}
+
+.alert-dismissible .close {
+	padding: .5rem 1rem;
+}
+
+.close {
+	font-size: 1.25rem;
+}
+
+.close:hover {
+	color: inherit;
+}
+
+.form-group {
+	margin-bottom: .5rem;
+}
+
+label {
+	margin-bottom: .05rem;
+	font-size: .75rem !important;
+}
+
+textarea {
+	resize: none;
+}
+
+button:focus {
+	outline: 0;
+}
+
+.table {
+	font-size: .75rem !important;
+	white-space: nowrap !important;
+}
+
+.table tr td,
+.table tr th {
+	vertical-align: middle !important;
+}
+
+.custom-control-label {
+	padding-top: 3px !important;
+}
+
+.app_carregamento {
+	display: none;
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, .75);
+}
+
+.app_carregamento_conteudo {
+	position: absolute;
+	top: calc(50% - 100px);
+	left: calc(50% - 100px);
+	width: 200px;
+	height: 200px;
+	background-color: #fff;
+}
+
+.app_carregamento_conteudo_icone {
+	display: inline-block;
+	position: relative;
+	width: 64px;
+	height: 64px;
+}
+
+.app_carregamento_conteudo_icone div {
+	position: absolute;
+	border: 4px solid #000;
+	opacity: 1;
+	border-radius: 50%;
+	animation: app_carregamento_conteudo_icone 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.app_carregamento_conteudo_icone div:nth-child(2) {
+	animation-delay: -0.5s;
+}
+
+@keyframes app_carregamento_conteudo_icone {
+	0% {
+		top: 28px;
+		left: 28px;
+		width: 0;
+		height: 0;
+		opacity: 1;
+	}
+	100% {
+		top: -1px;
+		left: -1px;
+		width: 58px;
+		height: 58px;
+		opacity: 0;
+	}
+}
+
+.app_mensagem {
+	width: 280px;
+	position: fixed;
+	top: 15px;
+	right: 15px;
+	z-index: 9998;
+}
+
+.app_btn_icon > .app_icon {
+	vertical-align: middle;
+}
+
+.app_icon {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100%;
+}
+
+.app_icon_key {
+	background-image: url(../icons/key.png);
+}
+
+.app_icon_user {
+	background-image: url(../icons/user.png);
+}
+
+.app_icon_door_in {
+	background-image: url(../icons/door_in.png);
+}
+
+.app_icon_door_out {
+	background-image: url(../icons/door_out.png);
+}
+
+.app_icon_ruler {
+	background-image: url(../icons/ruler.png);
+}
+
+.app_icon_cog {
+	background-image: url(../icons/cog.png);
+}
+
+.app_icon_group {
+	background-image: url(../icons/group.png);
+}
+
+.app_icon_arrow_refresh {
+	background-image: url(../icons/arrow_refresh.png);
+}
+
+.app_icon_database_refresh {
+	background-image: url(../icons/database_refresh.png);
+}
+
+.app_icon_help {
+	background-image: url(../icons/help.png);
+}
+
+.app_icon_to_do_list {
+	background-image: url(../icons/to_do_list.png);
+}
+
+.app_icon_client_account_template {
+	background-image: url(../icons/client_account_template.png);
+}
+
+.app_icon_resultset_previous {
+	background-image: url(../icons/resultset_previous.png);
+}
+
+.app_icon_accept_button {
+	background-image: url(../icons/accept_button.png);
+}
+
+.app_icon_magnifier {
+	background-image: url(../icons/magnifier.png);
+}
+
+.app_icon_add {
+	background-image: url(../icons/add.png);
+}
+
+.app_icon_diskette {
+	background-image: url(../icons/diskette.png);
+}
+
+.app_icon_cancel {
+	background-image: url(../icons/cancel.png);
+}
+
+.app_icon_delete {
+	background-image: url(../icons/delete.png);
+}
+
+.app_icon_pencil_ruler {
+	background-image: url(../icons/pencil_ruler.png);
+}
+
+.app_icon_arrow_rotate_clockwise {
+	background-image: url(../icons/arrow_rotate_clockwise.png);
+}
+
+.app_icon_email_go {
+	background-image: url(../icons/email_go.png);
+}
+
+.app_icon_page_white_add {
+	background-image: url(../icons/page_white_add.png);
+}
+
+.app_icon_page_white_edit {
+	background-image: url(../icons/page_white_edit.png);
+}
+
+.app_icon_page_white_go {
+	background-image: url(../icons/page_white_go.png);
+}
+
+.app_icon_page_white_find {
+	background-image: url(../icons/page_white_find.png);
+}
+
+.app_icon_arrow_undo {
+	background-image: url(../icons/arrow_undo.png);
+}
